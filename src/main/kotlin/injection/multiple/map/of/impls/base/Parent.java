@@ -14,7 +14,7 @@ public class Parent {
 
     void doSomething(){
         children.forEach((k, v)-> {
-            System.out.printf("Key is '%s'", k);
+            System.out.printf("Key is '%s'. Result of call method is: ", k);
             v.someCoolStuffToDo();
         });
     }

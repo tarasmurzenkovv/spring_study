@@ -1,5 +1,7 @@
 package injection.resolution.by.bean.name;
 
+import injection.resolution.by.bean.name.impl.FirstImpl;
+import injection.resolution.by.bean.name.impl.SecondImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,5 +1,6 @@
 package injection.resolution.by.type;
 
+import injection.resolution.by.type.impl.FirstImpl;
 import org.springframework.stereotype.Service;
 
 @Service

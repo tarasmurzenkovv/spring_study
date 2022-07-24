@@ -1,4 +1,6 @@
-package injection.resolution.by.primary;
+package injection.resolution.by.qualifier.impl;
+
+import injection.resolution.by.qualifier.Child;
 
 public class SecondImpl implements Child {
     @Override

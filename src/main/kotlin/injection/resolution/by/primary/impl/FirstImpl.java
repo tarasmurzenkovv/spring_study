@@ -1,4 +1,6 @@
-package injection.resolution.by.type;
+package injection.resolution.by.primary.impl;
+
+import injection.resolution.by.primary.Child;
 
 public class FirstImpl implements Child {
     @Override

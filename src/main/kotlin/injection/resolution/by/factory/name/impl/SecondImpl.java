@@ -1,8 +1,7 @@
-package injection.multiple.list.of.impls;
+package injection.resolution.by.factory.name.impl;
 
-import org.springframework.stereotype.Service;
+import injection.resolution.by.factory.name.Child;
 
-@Service
 public class SecondImpl implements Child {
     @Override
     public void someCoolStuffToDo() {

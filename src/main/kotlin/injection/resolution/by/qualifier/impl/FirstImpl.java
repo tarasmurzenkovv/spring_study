@@ -1,8 +1,7 @@
-package injection.multiple.map.of.impls.qualifier;
+package injection.resolution.by.qualifier.impl;
 
-import org.springframework.stereotype.Service;
+import injection.resolution.by.qualifier.Child;
 
-@Service("1st impl")
 public class FirstImpl implements Child {
     @Override
     public void someCoolStuffToDo() {

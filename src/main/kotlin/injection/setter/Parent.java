@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class Parent {
-    @Autowired
     private Children children;
 
 
@@ -14,6 +13,7 @@ public class Parent {
         children.callMe();
     }
 
+    @Autowired
     public void setChildren(Children children) {
         this.children = children;
     }

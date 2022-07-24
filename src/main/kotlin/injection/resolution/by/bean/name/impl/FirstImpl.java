@@ -1,4 +1,6 @@
-package injection.resolution.by.primary;
+package injection.resolution.by.bean.name.impl;
+
+import injection.resolution.by.bean.name.Child;
 
 public class FirstImpl implements Child {
     @Override

@@ -4,7 +4,7 @@ plugins {
     kotlin("jvm") version "1.7.10"
 }
 
-group = "org.example"
+group = "injection"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -12,16 +12,7 @@ repositories {
 }
 
 dependencies {
-    // https://mvnrepository.com/artifact/org.springframework/spring-context
     implementation("org.springframework:spring-context:5.3.22")
 
     testImplementation(kotlin("test"))
-}
-
-tasks.test {
-    useJUnitPlatform()
-}
-
-tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
 }
